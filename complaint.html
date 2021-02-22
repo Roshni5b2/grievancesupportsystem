@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Complaint Form</title>
+</head>
+<body>
+	<div>
+		<div>
+			<table>
+				<tr>
+					<td>Complaint Name :</td>
+					<td><input type="text" name="complaint" placeholder="enter the complaint name"></td>
+				</tr>
+				<tr>
+					<td>Department :</td>
+					<td><select name="department" required>
+	<option>CSE</option>
+	<option>ECE</option>
+	<option>EEE</option>
+	<option>CST</option>
+	<option>CSIT</option>
+	<option>CIVIL</option>
+	<option>MECH</option>
+</select></td>
+				</tr>
+				<tr>
+					<td>Year :</td>
+					<td><select name="year" required>
+	<option>1st Year</option>
+	<option>2nd Year</option>
+	<option>3rd Year</option>
+	<option>4th Year</option>
+</select></td>
+				</tr>
+				<tr>
+					<td>Section :</td>
+					<td><select name="section" required>
+	<option>A</option>
+	<option>B</option>
+	<option>C</option>
+	<option>D</option>
+	<option>E</option>
+	<option>F</option>
+</select></td>
+				</tr>
+				<tr>
+					<td>Complaint Category :</td>
+					<td><select name="category" required>
+					 <option>Admission</option>
+					 <option value="">Finanace</option>
+                     <option value="">Examination</option>
+                     <option value="">Lecture Timemable/Learning</option>
+                     <option value="">Paper Re-Evealution</option>
+                     <option value="">Others</option>
+					</select></td>
+				</tr>
+				<tr>
+					<td>Enter your Complaint :</td>
+					<td><textarea cols="20" rows="12" name="complainttext" required></textarea></td>
+				</tr>
+					<tr>
+						<td>Select a person to submit the Complaint :</td>
+						<td><select name="complaintsub" required>
+							<option>Head Of the Department</option>
+							<option>Vice Principal</option>
+							<option>Princial</option>
+						</select></td>
+				</tr>
+			</table>
+			<input type="submit" name="submit">
+		</div>
+	</div>
+
+</body>
+</html>
